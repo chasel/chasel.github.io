@@ -1,6 +1,6 @@
 title:            顾竹君写字的地方
 description:      谦卑而执着 羞涩而无畏
-logo:             site-logo.png
+logo:             site-logo.jpg
 disqus_shortname: 顾竹君
 # Assign a default image for your site's header and footer
 default_bg:       default_bg1.jpg
@@ -19,7 +19,7 @@ url:              "http://chasel.li"
 # Owner/author information
 owner:
   name:           顾竹君
-  avatar:         site-logo.png
+  avatar:         site-logo.jpg
   email:          chasel.gu@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    谦卑而执着 羞涩而无畏
