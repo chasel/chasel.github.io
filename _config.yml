@@ -1,19 +1,77 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+title:            顾竹君写字的地方
+description:      谦卑而执着 羞涩而无畏
+logo:             site-logo.png
+disqus_shortname: 顾竹君
+# Assign a default image for your site's header and footer
+default_bg:       default_bg1.jpg
+search:           true
+share:            false
+# Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
+readtime:         true
+# Turn on or off the fin animations in the header and footer
+animated_fins:    true
+# Specify the fin color in RGB value
+fin_color:        "255,255,255"
+# Change url to your domain. Leave localhost server or blank when working locally.
+url:              "http://localhost:4000"
 
-# Site settings
-title: 顾竹君写字的地方
-email: chasel.gu@gmail.com
-description: 谦卑而执着 羞涩而无畏
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://chasel.li" # the base hostname & protocol for your site
-twitter_username: chasel
-github_username:  chasel
 
-# Build settings
-markdown: kramdown
-highlighter: true
+# Owner/author information
+owner:
+  name:           顾竹君
+  avatar:         site-logo.png
+  email:          chasel.gu@gmail.com
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  description:    谦卑而执着 羞涩而无畏
+  # Social networking links used in footer. Update and remove as you like.
+  # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
+  twitter: 		  chasel
+  github:		  chasel
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+    external: false
+    icon: home
+  - title: 目录
+    url: /categories
+  - title: 分类
+    url: /tags
+  - title: 我是谁?
+    url: /
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Asia/Hong_Kong
+future:      true
+highlighter:    true
+markdown:    kramdown
+triangleheader: true
+paginate:    6
+paginate_path: "page:num"
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+gems: [jekyll-paginate]
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
